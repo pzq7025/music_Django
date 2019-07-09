@@ -1,0 +1,16 @@
+{% extends 'main.html' %}
+{% block title %}
+{% load staticfiles %}
+
+<img src="{% static 'images\pk_1.jpg' %}" height="500" width="500">
+<p>
+<h1>我是不是你最疼爱的人，你为什么不说话，我在这等着你回来等着你回来，一朵花儿开就是一朵花儿，满山的花儿在这里开啊！</h1>
+</p>
+<img src="{% static 'images\pk_1.jpg' %}" height="500" width="500">
+<br>
+<a href="{% url 'index:show' %}"><h3>Show页面</h3></a>
+<br>
+<a href="{% url 'index:seconds' %}"><h3>Seconds页面</h3></a>
+<br>
+<video src="{% static 'videos\first.m4a' %}" width="400" controls loop></video>
+{% endblock %}

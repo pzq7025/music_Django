@@ -1,0 +1,23 @@
+<!doctype html>
+<html>
+<!--这个head是为了配合各个组件的head由于每个组件的js等数据不相同因此需要设计改造-->
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="renderer" content="webkit">
+<meta name="keywords" content="">
+<meta name="description" content="">
+<title>我的音乐</title>
+
+<!--block代表引入的区域，title是引入区域的名字-->
+{% block title %}{% endblock %}
+
+<div class="footer">
+    <div class="copyright">
+        <p>网站数据信息来源于网络</p>
+    </div>
+</div>
+
+<!--这个body对应相应的html里面的body，这样就可以将主体放进去-->
+</body>
+</html>

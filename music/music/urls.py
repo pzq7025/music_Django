@@ -24,7 +24,7 @@ from index import views
 urlpatterns = [
     path(r'admin/', admin.site.urls),
     path(r'music/index/', include('index.urls', namespace='index')),
-    # path(r'music/comment/', include('comment.urls', namespace='comment')),
+    path(r'music/comment/', include('comment.urls', namespace='comment')),
     path(r'music/play/', include('play.urls', namespace='play')),
     path(r'music/ranking/', include('ranking.urls', namespace='ranking')),
     path(r'music/search/', include('search.urls', namespace='search')),

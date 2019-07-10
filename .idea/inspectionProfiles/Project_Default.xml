@@ -7,6 +7,7 @@
           <option value="index.models.Dynamic.*" />
           <option value="index.models.Label.*" />
           <option value="index.models.Song.*" />
+          <option value="index.models.Comment.*" />
         </list>
       </option>
     </inspection_tool>
